@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T03:29:33.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xVERFS2CU2Q23_ds-4eT" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T13:35:50.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="YVi6hlkjsTlG0l0QQ8UN" version="22.1.16" type="github">
   <diagram name="第 1 页" id="tiFzKiLhvS5umNf-dTwE">
-    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,11 +109,13 @@
         <mxCell id="45P3nktugurUnX2vSybm-41" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;远程诊断异步任务获取结果并保存数据库&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="45P3nktugurUnX2vSybm-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45P3nktugurUnX2vSybm-42" target="45P3nktugurUnX2vSybm-48" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="45P3nktugurUnX2vSybm-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45P3nktugurUnX2vSybm-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.5" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="45P3nktugurUnX2vSybm-42" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;获取所有的&lt;span style=&quot;font-size: 9pt; font-style: italic; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;DCM&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9pt; font-style: italic;&quot;&gt;图&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="290" width="125" height="60" as="geometry" />
+        <mxCell id="45P3nktugurUnX2vSybm-42" value="&lt;font color=&quot;#ff3333&quot;&gt;获取所有的dcm&lt;font face=&quot;宋体, monospace&quot;&gt;&lt;i&gt;图(&lt;/i&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 51, 51); background-color: rgb(255, 255, 255);&quot;&gt;根据不同情况以不同方式返回诊断后推送的报告数据）&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9pt; font-style: italic;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="289" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="45P3nktugurUnX2vSybm-45" value="&lt;h1&gt;Y&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="765" y="150" width="50" height="30" as="geometry" />
@@ -124,20 +126,8 @@
         <mxCell id="45P3nktugurUnX2vSybm-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="45P3nktugurUnX2vSybm-46" target="45P3nktugurUnX2vSybm-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="45P3nktugurUnX2vSybm-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45P3nktugurUnX2vSybm-48" target="45P3nktugurUnX2vSybm-50" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="45P3nktugurUnX2vSybm-48" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;根据不同情况以不同方式返回诊断后推送的报告数据&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="437.5" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="45P3nktugurUnX2vSybm-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45P3nktugurUnX2vSybm-50" target="45P3nktugurUnX2vSybm-52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="45P3nktugurUnX2vSybm-50" value="结构化报告" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="237.5" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="45P3nktugurUnX2vSybm-52" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="37.5" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="435" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
