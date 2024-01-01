@@ -1,9 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T03:41:52.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.16" etag="rHIam55wnl1wy9EgS4yE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T13:34:58.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="cLfclQnPn9GwB8ewzy1M" version="22.1.16" type="github">
   <diagram name="第 1 页" id="fp1xQPuFDgLwSkvVISMS">
-    <mxGraphModel>
+    <mxGraphModel dx="2069" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QVikjLafRAf3sTeTr3jy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-1" target="QVikjLafRAf3sTeTr3jy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="220" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-2" target="QVikjLafRAf3sTeTr3jy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-2" value="不同情况下相关参数分析和更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-4" target="QVikjLafRAf3sTeTr3jy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-4" value="调用相关接口发送请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-6" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-9" target="QVikjLafRAf3sTeTr3jy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-9" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="370" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-11" target="QVikjLafRAf3sTeTr3jy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-11" value="不同情况下相关参数分析和更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-13" target="QVikjLafRAf3sTeTr3jy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-13" value="根据所属医院或者机构的基础设置的公钥生成不同类型的pdf版本" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-14" target="QVikjLafRAf3sTeTr3jy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-14" value="调用相关接口发送请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-15" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-20" target="QVikjLafRAf3sTeTr3jy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-20" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="510" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-22" target="QVikjLafRAf3sTeTr3jy-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-22" value="不同情况下相关参数分析和更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QVikjLafRAf3sTeTr3jy-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-24" value="根据所属医院或者机构的基础设置的公钥调用相关接口发送请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVikjLafRAf3sTeTr3jy-27" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
