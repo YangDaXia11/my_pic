@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T06:29:13.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="IvZVrIVR0WzVP-0jJNQy" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T06:39:11.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="e4LQoqrXnAaM8mNZcWsK" version="22.1.16" type="github">
   <diagram name="第 1 页" id="at5m0T8zt1dCvnjk2d3n">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z6VySQBkPBmHjOSyOEfj-1" target="Z6VySQBkPBmHjOSyOEfj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z6VySQBkPBmHjOSyOEfj-2" target="Z6VySQBkPBmHjOSyOEfj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-2" value="从不同的数据表中取最近一组数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z6VySQBkPBmHjOSyOEfj-4" target="Z6VySQBkPBmHjOSyOEfj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z6VySQBkPBmHjOSyOEfj-4" target="Z6VySQBkPBmHjOSyOEfj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-4" value="文件名中是否有img2pdf" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z6VySQBkPBmHjOSyOEfj-6" target="Z6VySQBkPBmHjOSyOEfj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-6" value="在指定位置创建文件夹，写入dcm文件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="225" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z6VySQBkPBmHjOSyOEfj-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-8" value="不存储信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="149" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z6VySQBkPBmHjOSyOEfj-10" target="Z6VySQBkPBmHjOSyOEfj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-10" value="添加dicom判断结果，相关数据库进行更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-12" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="220" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-14" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="399" y="189" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6VySQBkPBmHjOSyOEfj-15" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
