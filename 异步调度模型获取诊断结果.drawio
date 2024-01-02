@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T15:50:50.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wKa4C6WKpMEjXrkBp16h" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T01:43:53.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4KpwZdCl3_YTtzuog6ey" version="22.1.16" type="github">
   <diagram name="第 1 页" id="Nl7xQVc4WKRb0VdFeoXM">
-    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="912" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,14 +12,87 @@
         <mxCell id="eP-oQKJqBQ1bmRZtz8F2-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="240" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eP-oQKJqBQ1bmRZtz8F2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eP-oQKJqBQ1bmRZtz8F2-4" target="eP-oQKJqBQ1bmRZtz8F2-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="eP-oQKJqBQ1bmRZtz8F2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eP-oQKJqBQ1bmRZtz8F2-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eP-oQKJqBQ1bmRZtz8F2-4" value="服务器有效性验证" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eP-oQKJqBQ1bmRZtz8F2-5" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-1" target="NKS2gU1bINUWBG4dSlaB-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-1" value="根据镜像名启动docker容器获取诊断数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-2" target="NKS2gU1bINUWBG4dSlaB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-2" target="NKS2gU1bINUWBG4dSlaB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-2" value="是否有模型映射" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-5" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-6" target="NKS2gU1bINUWBG4dSlaB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="120" />
+              <mxPoint x="381" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-6" value="是否有指定的aiID" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-7" target="NKS2gU1bINUWBG4dSlaB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-7" value="根据aiID添加模型映射" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="140" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-9" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-11" target="NKS2gU1bINUWBG4dSlaB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-11" value="添加模型映射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-13" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-14" target="NKS2gU1bINUWBG4dSlaB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-14" value="推报告" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-18" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKS2gU1bINUWBG4dSlaB-19" target="NKS2gU1bINUWBG4dSlaB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-19" value="诊断请求指定ai模型进行诊断" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-23" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NKS2gU1bINUWBG4dSlaB-25" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="240" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
