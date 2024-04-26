@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T01:56:40.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="mAT_gxeaK2DFNQarrxxz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T02:03:52.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8JDNWI8dAvQi-3x-IhNh" version="24.3.0" type="github">
   <diagram name="第 1 页" id="FDKHMECp9yHYC-I6jjyp">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Y_BCqemooSV_bznGF9cX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y_BCqemooSV_bznGF9cX-1" target="Y_BCqemooSV_bznGF9cX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y_BCqemooSV_bznGF9cX-2" target="Y_BCqemooSV_bznGF9cX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y_BCqemooSV_bznGF9cX-2" target="Y_BCqemooSV_bznGF9cX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-2" value="设置相机参数(根据不同的内参外参格式进行转化)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y_BCqemooSV_bznGF9cX-4" target="Y_BCqemooSV_bznGF9cX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-4" value="递归对目录中所有文件进行分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-6" value="存入json文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y_BCqemooSV_bznGF9cX-8" target="Y_BCqemooSV_bznGF9cX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-8" value="将图片文件按指定分包规则进行分包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y_BCqemooSV_bznGF9cX-10" target="Y_BCqemooSV_bznGF9cX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-10" value="按平台文件格式进行分别存储(main文件和相机名文件)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-14" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.61;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y_BCqemooSV_bznGF9cX-6" target="Y_BCqemooSV_bznGF9cX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_BCqemooSV_bznGF9cX-17" value="将相机json文件存到相机名文件中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_BCqemooSV_bznGF9cX-16">
+          <mxGeometry x="-0.1495" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
